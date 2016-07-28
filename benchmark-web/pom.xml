@@ -100,7 +100,7 @@
 
     </dependencies>
     <build>
-        <finalName>fusion-api</finalName>
+        <finalName>benchmark</finalName>
         <resources>
             <resource>
                 <directory>../../fusion-conf/src/main/resources/${package.environment}</directory>

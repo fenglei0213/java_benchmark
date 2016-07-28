@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.wind3stone.benchmark.util.ThreadUtils;
 import org.wind3stone.benchmark.util.WebResponse;
 
 /**
@@ -24,8 +25,8 @@ public class EchoController {
     @RequestMapping
     public WebResponse echo() {
         WebResponse webResponse = new WebResponse();
-//        Threads.sleep();
-        logger.info("echo is");
+        ThreadUtils.sleep(90);
+        logger.info("echo is coming");
         return webResponse;
     }
 }
