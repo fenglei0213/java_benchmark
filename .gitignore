@@ -10,3 +10,9 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/java_benchmark.iml
+/benchmark-conf/benchmark-conf.iml
+/benchmark-core/benchmark-core.iml
+/benchmark-parent/benchmark-parent.iml
+/benchmark-util/benchmark-util.iml
+/benchmark-web/benchmark-web.iml
