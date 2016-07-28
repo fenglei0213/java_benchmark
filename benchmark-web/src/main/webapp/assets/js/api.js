@@ -2,7 +2,7 @@ $(document).ready(function () {
     var putData = {};
     $.ajax({
         type: "POST",
-        url: "http://cp01-tieba-data-1017.cp01.baidu.com:8020/benchmark/echo/echo.do",
+        url: "http://cp01-tieba-data-1017.cp01.baidu.com:8020/benchmark-web/echo/echo.do",
         dataType: "json",
         contentType: "application/json",
         data: JSON.stringify(putData),

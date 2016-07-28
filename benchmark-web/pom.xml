@@ -73,10 +73,6 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
         </dependency>
-        <!--<dependency>-->
-        <!--<groupId>org.codehaus.jackson</groupId>-->
-        <!--<artifactId>jackson-all</artifactId>-->
-        <!--</dependency>-->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
@@ -100,7 +96,7 @@
 
     </dependencies>
     <build>
-        <finalName>benchmark</finalName>
+        <finalName>benchmark-web</finalName>
         <resources>
             <resource>
                 <directory>../../fusion-conf/src/main/resources/${package.environment}</directory>

@@ -20,7 +20,7 @@ public class HttpPressureProcessor implements Runnable {
         try {
             HttpClientUtils.post(url, null, data, HttpClientUtils.configHeaderJsonMap(), timeout);
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error("HttpPressureProcessor Exception:", e);
         }
     }
 }
