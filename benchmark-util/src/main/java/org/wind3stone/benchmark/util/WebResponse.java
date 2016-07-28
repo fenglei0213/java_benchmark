@@ -1,5 +1,7 @@
 package org.wind3stone.benchmark.util;
 
+import org.wind3stone.benchmark.util.web.ResponseCode;
+
 import java.util.Set;
 
 /**

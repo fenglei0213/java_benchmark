@@ -21,7 +21,7 @@
         <druid.version>0.2.3</druid.version>
         <slf4j.version>1.6.1</slf4j.version>
         <log4j.version>1.2.16</log4j.version>
-        <commons-lang3.version>3.1</commons-lang3.version>
+        <commons.lang3.version>3.1</commons.lang3.version>
         <commons-io.version>2.4</commons-io.version>
         <!--<guava.version>13.0.1</guava.version>-->
         <guava.version>12.0.1</guava.version>

@@ -15,7 +15,7 @@
     <url>http://maven.apache.org</url>
 
     <modules>
-        <module>benchmark-biz</module>
-        <module>benchmark-assembly</module>
+        <module>benchmark-core-biz</module>
+        <module>benchmark-core-assembly</module>
     </modules>
 </project>
